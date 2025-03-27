@@ -1,0 +1,81 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background: #f7f7dc;
+}p, h2, h3, h4, h5, h6{
+    margin: 0;
+}
+
+.container{
+  
+    min-height: 100vh;
+    background:  #fff;
+    width: 560px;
+    margin: 20px auto;
+    padding: 28px;
+
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+
+}
+
+.header img{
+    width: 95%;
+    height: auto;
+    border-radius: 8px;
+    
+}
+
+.time{
+    background: hsl(330, 100%, 98%);
+}
+
+.time p{
+    color: hsl(332, 51%, 32%);
+    font-weight: 600;
+    padding: 20px 15px;
+}
+.time ul li strong{
+    color: hsl(24, 5%, 18%);
+}
+
+.time ul li {
+    padding-bottom: 16px;
+}
+
+.ingredients h2, .instructions h2, .nutrition h2, .instructions ol li::marker{ 
+    color: hsl(14, 45%, 36%);
+    
+}
+
+.ingredients ul li{
+   color: #333;
+}
+
+.instructions ol li strong{
+    color:  hsl(24, 5%, 18%);
+    
+}
+.instructions ol li{
+    color: #333;
+}
+
+.nutrition table {
+    width: 100%;
+    border-collapse: collapse;
+    
+}
+
+table tr{
+    border-bottom: 1px solid #ddd;
+}
+
+table tr td{
+    
+    text-indent: 20px;
+    padding: 10px;
+}
+
